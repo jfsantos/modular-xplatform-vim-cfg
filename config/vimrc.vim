@@ -20,6 +20,7 @@ if(filereadable(expand("$VIMROOT") . "/runtime/bundle/vundle/README.md"))
     Bundle 'sjl/gundo.vim'
     Bundle 'ZoomWin'
     Bundle 'plasticboy/vim-markdown'
+    Bundle 'davidoc/todo.txt-vim'
 
     " hahahaha :)
     Bundle 'vim-scripts/matrix.vim--Yang'
@@ -43,6 +44,7 @@ if(filereadable(expand("$VIMROOT") . "/runtime/bundle/vundle/README.md"))
     source $VIMROOT/config/ui.vim  " user-interface stuff
     source $VIMROOT/config/tags.vim  " tags and stuff
     source $VIMROOT/config/latex.vim  " Configurations for LaTeX-Vim
+    source $VIMROOT/config/todotxt.vim " Configuration for todo.txt files
 
 endif
 
